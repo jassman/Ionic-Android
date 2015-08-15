@@ -1,0 +1,9 @@
+<ion-view view-title="Google Map Demo">
+  <ion-content>
+        <div class="buttons">
+            <button class="button" ng-click="getLocation()">Update Location</button>
+        </div>
+            <google-map center="map.center" zoom="map.zoom"></google-map>
+        <h3> Your location is latitude: {{map.center.latitude}}, longitude: {{map.center.longitude}}</h3>
+  </ion-content>
+</ion-view>
